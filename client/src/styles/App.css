@@ -1,0 +1,104 @@
+@font-face{
+  font-family: Apercu;
+  src: url(../../public/Apercu\ Medium.otf);
+}
+
+@font-face{
+  font-family: Apercu Light;
+  src: url(../../public/Apercu\ Light.otf);
+}
+
+.App {
+  text-align: center;
+  font-family: Apercu;
+}
+
+.App-header {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+.baseballAppHeader{
+  margin: 0;
+  text-align: left;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.subtitle{
+  font-size: 16px;
+  font-family: Apercu Light;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.salaryContainer {
+  width: 50%;
+  padding: 20px 30px;
+}
+
+.salaryTitle{
+  text-align: left;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #a7c3d0;
+}
+
+.salaryDescription{
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 25px;
+  font-family: Apercu Light;
+}
+
+.salaryValue{
+  font-size: 35px;
+  padding: 20px;
+}
+
+.buttonGroup{
+  padding-top: 30px;
+  display:flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.dataViewButton{
+  width: 40%;
+  font-family: Apercu;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.dataViewButton:hover{
+  background-color: #a7c3d0;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.selectedDataView{
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.paginationStyle{
+  font-size: 15px;
+}
+
